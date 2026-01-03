@@ -3,7 +3,7 @@ import LegendaryCursor from 'legendary-cursor';
 // Star particles background
 function createStars() {
     const container = document.getElementById('stars-container');
-    const starCount = 150;
+    const starCount = 800;
 
     for (let i = 0; i < starCount; i++) {
         const star = document.createElement('div');

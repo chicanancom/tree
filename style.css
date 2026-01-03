@@ -40,7 +40,7 @@ body {
     position: absolute;
     background: var(--accent-color);
     border-radius: 50%;
-    opacity: 0.2;
+    opacity: 0.15;
     animation: twinkle var(--duration) infinite ease-in-out;
 }
 
@@ -48,12 +48,12 @@ body {
 
     0%,
     100% {
-        opacity: 0.3;
-        transform: scale(1);
+        opacity: 0.1;
+        transform: scale(0.8);
     }
 
     50% {
-        opacity: 1;
+        opacity: 0.6;
         transform: scale(1.2);
     }
 }
